@@ -337,13 +337,13 @@ function censusPins(
 }
 
 const PINNED_PRINT = [
-	"expect(CENSUS_SITES.length).toBe(58);",
-	'expect(CENSUS_ROWS.filter((row) => row.stage !== "gate").length).toBe(63);',
-	'expect(stageJobs("A")).toBe(23);',
+	"expect(CENSUS_SITES.length).toBe(59);",
+	'expect(CENSUS_ROWS.filter((row) => row.stage !== "gate").length).toBe(64);',
+	'expect(stageJobs("A")).toBe(24);',
 	'expect(stageJobs("B")).toBe(2);',
 	'expect(stageJobs("C")).toBe(13);',
 	'expect(stageJobs("D")).toBe(25);',
-	"expect(CENSUS_SITES.filter((site) => site.ref !== undefined).length).toBe(20);",
+	"expect(CENSUS_SITES.filter((site) => site.ref !== undefined).length).toBe(21);",
 	"expect(CENSUS_SITES.filter((site) => site.ref === EPHEMERAL_PULL_REF).length).toBe(17);",
 	'expect(stageRefs("A")).toBe(16);',
 	"expect(EARLY_START_MEMBERS.length).toBe(11);",
