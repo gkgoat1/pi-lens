@@ -399,5 +399,5 @@ date-based `direct` expiry (#3401) and consecutive-night `idle-eviction`
 counts (#3989). Regenerated every run; never a measurement.
 
 ```json
-{"idle-eviction":{"powershell":{"nights":[{"day":"2026-10-27","rssMb":155,"coldMs":2553}]}}}
+{"idle-eviction":{"powershell":{"nights":[{"day":"2026-10-29","rssMb":154,"coldMs":2580},{"day":"2026-10-30","rssMb":170,"coldMs":2245}]}}}
 ```
